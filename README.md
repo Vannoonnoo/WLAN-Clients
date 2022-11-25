@@ -1,2 +1,2 @@
 # WLAN-Clients
-Bash script for OpenWRT that acquires the connected clients and displays their names
+This script should be placed on an OpenWRT router and executed using SSH. It simply displays the names of the clients, or displays an empty line if a client doesn't have a name. I use it to check who's home by having my phone connect to my router with SSH, execute the script, and return the results, all with the click of a button. This can be done by using either Shortcuts on iOS, or IFTTT on Android. This script can easily be expanded to send additional information such as the MAC address or IP address.
